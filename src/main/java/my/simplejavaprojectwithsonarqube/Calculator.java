@@ -1,6 +1,6 @@
 package my.simplejavaprojectwithsonarqube;
 
-import java.security.SecureRandom;
+// import java.security.SecureRandom;
 
 public class Calculator {
 
@@ -25,11 +25,11 @@ public class Calculator {
 		return a*b;
 	}	
 	
-	public int getRandomNumber()
-	{
-		System.out.println("vulnerability on purpose");
-		SecureRandom sr = new SecureRandom();
-		sr.setSeed(123456L);
-		return sr.nextInt();
-	}
+// 	public int getRandomNumber()
+// 	{
+// 		System.out.println("vulnerability on purpose");
+// 		SecureRandom sr = new SecureRandom();
+// 		sr.setSeed(123456L);
+// 		return sr.nextInt();
+// 	}
 }
